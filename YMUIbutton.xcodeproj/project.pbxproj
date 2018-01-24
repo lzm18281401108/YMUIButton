@@ -15,6 +15,7 @@
 		16294C7C20186ED500E9EFC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16294C7B20186ED500E9EFC6 /* main.m */; };
 		16294C8620186ED500E9EFC6 /* YMUIbuttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16294C8520186ED500E9EFC6 /* YMUIbuttonTests.m */; };
 		16294C9120186ED500E9EFC6 /* YMUIbuttonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16294C9020186ED500E9EFC6 /* YMUIbuttonUITests.m */; };
+		16294CA020186EF300E9EFC6 /* YMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16294C9F20186EF300E9EFC6 /* YMButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16294C8C20186ED500E9EFC6 /* YMUIbuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMUIbuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16294C9020186ED500E9EFC6 /* YMUIbuttonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMUIbuttonUITests.m; sourceTree = "<group>"; };
 		16294C9220186ED500E9EFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16294C9E20186EF300E9EFC6 /* YMButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMButton.h; sourceTree = "<group>"; };
+		16294C9F20186EF300E9EFC6 /* YMButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				16294C7720186ED500E9EFC6 /* LaunchScreen.storyboard */,
 				16294C7A20186ED500E9EFC6 /* Info.plist */,
 				16294C7B20186ED500E9EFC6 /* main.m */,
+				16294C9E20186EF300E9EFC6 /* YMButton.h */,
+				16294C9F20186EF300E9EFC6 /* YMButton.m */,
 			);
 			path = YMUIbutton;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				16294C7120186ED500E9EFC6 /* ViewController.m in Sources */,
 				16294C7C20186ED500E9EFC6 /* main.m in Sources */,
 				16294C6E20186ED500E9EFC6 /* AppDelegate.m in Sources */,
+				16294CA020186EF300E9EFC6 /* YMButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
